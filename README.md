@@ -50,3 +50,25 @@ make
 ```
 
 ---
+
+## 📷 Example Results (Cat Image Test)
+
+Below is an example of the blur → deblur pipeline using a Gaussian PSF.
+
+### **Original Image**
+<img src="results/kitty.jpg" width="450"/>
+
+---
+
+### **Blurred (FFT Convolution with PSF)**
+<img src="results/kitty_blur.png" width="450"/>
+
+---
+
+### **Restored (Tikhonov Deconvolution)**
+<img src="results/kitty_restore_tik.png" width="450"/>
+
+---
+
+These images demonstrate how the FFT-based convolution and regularized deconvolution behave on a real photograph, including blur spread, ringing artifacts, and the effect of λ in stabilizing the inverse filter.
+
