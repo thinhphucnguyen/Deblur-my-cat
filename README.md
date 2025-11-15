@@ -51,7 +51,7 @@ make
 
 ---
 
-## 📷 Example Results (Cat Image Test)
+## Example Results (Cat Image Test)
 
 Below is an example of the blur → deblur pipeline using a Gaussian PSF.
 
